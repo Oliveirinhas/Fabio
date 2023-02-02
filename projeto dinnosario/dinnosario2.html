@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>dinpsoasoirwr</title>
+
+    <style>
+        
+      .seta {
+        background-color: transparent;
+        width: 20px;
+        height: 20px;
+        border-bottom: 5px solid #04aa6d;
+        border-left: 5px solid #04aa6d;
+        rotate: 45deg;
+        margin-left: 10px;
+        margin-top: 20px;
+      }
+      .seta:hover {
+        border-bottom: 6px solid #04aa6d;
+        border-left: 6px solid #04aa6d;
+      }
+      img {
+        width: 300px;
+        position: absolute;
+        bottom: 50%;
+
+      }
+      #aleatorio {
+        width: 300px;
+        margin-left:37%;
+        margin-top: 200px;      
+      }
+    </style>
+  </head>
+  <body>
+    <a href="dinnosario.html"><div class="seta"></div></a>
+    <div id="aleatorio"></div>
+    <script>
+        (function () {
+          var img = [
+            "img/image-removebg-preview (1).png",
+            "img/image-removebg-preview (2).png",
+            "img/image-removebg-preview (3).png",
+          ];
+          var mudar = Math.floor(Math.random() * img.length);
+          document.getElementById("aleatorio").innerHTML =
+            "<img src='" + img[mudar] + "'>";
+        })();
+      </script>
+  </body>
+  
+</html>

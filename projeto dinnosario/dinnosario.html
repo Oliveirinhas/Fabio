@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Peiroeiorewf</title>
+
+    <style>
+      .caixa {
+        box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24);
+        height: 400px;
+        width: 30%;
+        background-color: rgb(255, 255, 255);
+        border-radius: 8%;
+        margin-bottom: -15%;
+        text-align: center;
+        margin: auto;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+      }
+      .estilo {
+        border-color: #04aa6d;
+        outline: none;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        width: 65%;
+        margin-top: 20px;
+        background-color: rgb(255, 255, 255);
+        padding: 5px;
+        position: relative;
+        cursor: pointer;
+      }
+      .botão {
+        font: normal Arial;
+        background-color: #04aa6d;
+        border-radius: 8px;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        width: 8%;
+        font-size: 16px;
+        border-color: #04aa6d;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        padding: 14px;
+        position: absolute;
+        bottom: 20px;
+        right: 5%;
+        box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+          0 17px 50px 0 rgba(0, 0, 0, 0.19);
+      }
+      .estilo2 {
+        display: none;
+        border-color: #04aa6d;
+        outline: none;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        width: 65%;
+        margin-top: 20px;
+        background-color: rgb(255, 255, 255);
+        padding: 5px;
+        position: relative;
+        cursor: pointer;
+      }
+
+      .botão {
+        font: normal Arial;
+        background-color: #04aa6d;
+        border-radius: 8px;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        width: 8%;
+        font-size: 16px;
+        border-color: #04aa6d;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        padding: 14px;
+        position: absolute;
+        bottom: 20px;
+        right: 5%;
+        box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+          0 17px 50px 0 rgba(0, 0, 0, 0.19);
+      }
+
+      div {
+        overflow: scroll;
+      }
+      footer {
+        position: absolute;
+        color: #474747;
+        background: linear-gradient(#45d8a2, #0494aa);
+        height: 160px;
+        width: 100%;
+        margin-left: -8px;
+        bottom: -30%;
+      }
+
+      .botão:hover {
+        box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+          0 17px 50px 0 rgba(0, 0, 0, 0.19);
+        background-color: rgb(255, 255, 255);
+        color: #04aa6d;
+        border-color: #04aa6d;
+        position: absolute;
+        width: 8, 5%;
+      }
+      .img1 {
+        display: block;
+        margin: auto;
+        margin-bottom: -15%;
+        width: 200px;
+        height: 200px;
+      }
+      .img2 {
+        display: block;
+        margin: auto;
+        padding: -170px 0;
+        width: 200px;
+        margin-top: -10px;
+      }
+      ::-webkit-scrollbar {
+        width: 12px;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: linear-gradient(to bottom, #05c27d, #40a3cd);
+        border-radius: 50px;
+      }
+      ::-webkit-scrollbar-track {
+        color: #474747;
+      }
+      @media only screen and (max-width: 844px) {
+        [class*="caixa"] {
+          width: 85%;
+        }
+
+        [class*="botão"] {
+          width: 90%;
+          font-size: 16px;
+          position: absolute;
+          bottom: 10px;
+          left: 5%;
+        }
+        [class*="botão.hover"] {
+          width: 91%;
+          font-size: 16px;
+          position: absolute;
+          bottom: 10px;
+          left: 5%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <img src="img/GEOPARK-removebg-preview.png" alt="" class="img2" />
+    <div>
+      <form class="caixa">
+        <img src="img/GEOPARK__1_-removebg-preview.png" alt="" class="img1" />
+        <input
+          type="text"
+          class="estilo"
+          placeholder="Nome Sobrenome"
+          id="inpt1"
+        />
+        <br />
+        <input type="number" class="estilo" placeholder="Pessoas" id="inpt2" />
+        <br />
+        <input type="text" class="estilo" placeholder="Estado" id="inpt3" />
+
+        <datalist id="opcoes">
+          <option value="AC"></option>
+          <option value="AL"></option>
+          <option value="AP"></option>
+          <option value="AM"></option>
+          <option value="BA"></option>
+          <option value="CE"></option>
+          <option value="DF"></option>
+          <option value="ES"></option>
+          <option value="GO"></option>
+          <option value="MA"></option>
+          <option value="MT"></option>
+          <option value="MS"></option>
+          <option value="MG"></option>
+          <option value="PA"></option>
+          <option value="PB"></option>
+          <option value="PR"></option>
+          <option value="PE"></option>
+          <option value="PI"></option>
+          <option value="RJ"></option>
+          <option value="RN"></option>
+          <option value="RS"></option>
+          <option value="RO"></option>
+          <option value="RR"></option>
+          <option value="SC"></option>
+          <option value="SP"></option>
+          <option value="SE"></option>
+          <option value="TO"></option>
+        </datalist>
+        <input type="text" class="estilo2" placeholder="Cidade" id="inpt4" />
+      </form>
+      <button class="botão" onmousedown="submit()" id="inpt5">
+        <b>Concluir</b>
+      </button>
+
+      <footer></footer>
+    </div>
+    <script>
+      const i3 = document.getElementById("inpt3");
+      const opc = document.getElementById("opcoes");
+      i3.setAttribute("list", "opcoes");
+      i3.innerHTML = "";
+
+      i3.addEventListener("click", function () {
+        i3.value = "";
+      });
+      function submit() {
+        var i1 = document.getElementById("inpt1");
+        var i2 = document.getElementById("inpt2");
+        var i5 = document.getElementById("inpt5");
+        if (
+          i1.value == 0 ||
+          i2.value == 0 ||
+          i3.value == 0 ||
+          i1.value.length < 3
+        ) {
+          alert("Preencha Todos os campos corretamente");
+          i1.value = "";
+          i2.value = "";
+          i3.value = "";
+        } else {
+          window.location.href =
+            "http://127.0.0.1:5500/projeto%20dinnosario/dinnosario2.html";
+        }
+        input.addEventListener("inpt1", function (event) {
+          this.value = this.value.replace(/[^a-zA-Z]+/g, "");
+        });
+      }
+    </script>
+  </body>
+</html>
